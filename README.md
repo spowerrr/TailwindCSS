@@ -39,10 +39,9 @@ This project is set up to use Tailwind CSS via the CLI. Follow these steps to in
 
    ```bash
    content: ["./*.html"],
+   ```
 
    This tells Tailwind where to look for HTML files, ensuring it only generates the CSS needed for these files.
-
-   ```
 
 5. **Setup Scripts in `package.json`**
 
@@ -53,11 +52,10 @@ This project is set up to use Tailwind CSS via the CLI. Follow these steps to in
      "build": "tailwindcss -i ./input.css -o styles/style.css",
      "watch": "tailwindcss -i ./input.css -o styles/style.css --watch"
    }
+   ```
 
    *build: Compiles Tailwind styles into `styles/style.css`.
    *watch: Automatically rebuilds the CSS whenever there are changes to the input files.
-
-   ```
 
 6. **Create Input CSS File**
 
@@ -67,10 +65,9 @@ This project is set up to use Tailwind CSS via the CLI. Follow these steps to in
    @tailwind base;
    @tailwind components;
    @tailwind utilities;
-
-   These directives include Tailwind's base, component, and utility styles, which are essential for using Tailwind’s classes.
-
    ```
+
+These directives include Tailwind's base, component, and utility styles, which are essential for using Tailwind’s classes.
 
 7. **Run Tailwind Watch Mode**
 
@@ -78,10 +75,9 @@ This project is set up to use Tailwind CSS via the CLI. Follow these steps to in
 
    ```bash
    npm run watch
+   ```
 
    This will create a styles folder containing the compiled style.css file. The file will automatically update each time you make changes to `input.css`.
-
-   ```
 
 8. **Link To Use**
 
@@ -94,6 +90,6 @@ This project is set up to use Tailwind CSS via the CLI. Follow these steps to in
 
 ```bash
 npm i
+```
 
 this command will create that.
-```
