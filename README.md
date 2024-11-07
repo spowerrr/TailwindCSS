@@ -54,8 +54,8 @@ This project is set up to use Tailwind CSS via the CLI. Follow these steps to in
    }
    ```
 
-   *build: Compiles Tailwind styles into `styles/style.css`.
-   *watch: Automatically rebuilds the CSS whenever there are changes to the input files.
+   `build`: Compiles Tailwind styles into `styles/style.css`.
+   `watch`: Automatically rebuilds the CSS whenever there are changes to the input files.
 
 6. **Create Input CSS File**
 
