@@ -67,7 +67,7 @@ This project is set up to use Tailwind CSS via the CLI. Follow these steps to in
    @tailwind utilities;
    ```
 
-These directives include Tailwind's base, component, and utility styles, which are essential for using Tailwind’s classes.
+   These directives include Tailwind's base, component, and utility styles, which are essential for using Tailwind’s classes.
 
 7. **Run Tailwind Watch Mode**
 
