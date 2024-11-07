@@ -83,13 +83,12 @@ These directives include Tailwind's base, component, and utility styles, which a
 
    ```bash
    <link href="styles/style.css" rel="stylesheet">
-
-
-   ***NB:*** Further if we want to create node modules folder then just run
    ```
 
-```bash
-npm i
-```
+   `NB`: Further if we want to create node modules folder then just run
 
-this command will create that.
+   ```bash
+   npm i
+   ```
+
+   this command will create that.
